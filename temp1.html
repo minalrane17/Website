@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .border{
+        display: flex;
+        justify-content: space-between;
+    }
+    header{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 6px solid rgb(14, 141, 192);
+    }
+    #idB1 {
+       border: 1px solid grey; 
+       border-radius: 10px;
+       height: 30px;
+       width: 150px;
+       margin-left: 50px;
+       display: flex;
+       margin-top: 30px;
+
+       
+    }
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 2px;
+}    
+    #idA1 {
+        margin-left: 100px;
+        display:flex;
+        width: 50%;
+        height: 250px;
+    }
+    
+    .content{
+        width: 50%;
+        height: 250px;
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .navbar {
+        display: flex;
+        height: 50px;
+        width: 100%;
+        background-color:rgb(44, 42, 44);
+        color: white;
+    } 
+    .navbar a{
+        color: white;
+        text-decoration: none;
+        margin-top: 20PX;
+        margin: 20px;
+        align-content: center;
+    }
+   
+    .M1{
+        background-image: url(flightback.png);
+        background-size: cover;
+        border: 1px solid black;
+        height: 650px;
+        width: 100%;
+        
+      }
+      .M2{
+        
+        text-align: center;
+        width: 50%;
+        height: 400px ;
+        padding: 10px;
+        margin-left: 20%;
+        color:white;
+      }
+      .b1 {
+        background-color: deepskyblue; 
+        height: 40px; 
+        width: 100px; 
+        border-radius: 30px;
+        color: white; 
+        margin-top: 40px;
+      }
+      .M3,.M4,.M5{
+        border: 1px solid black;
+        padding-left: 20px;
+        background-color: rgb(201, 212, 216);
+        /* border: 1px solid white; */
+        height: 200px;
+        width: 30%;
+      }
+      /* .M4{
+        background-color: white;
+        border: 1px solid white;
+        height: 100px;
+        width: 30%;
+      }
+      .M5{
+        background-color: white;
+        border: 1px solid white;
+        height: 100px;
+        width: 30%;
+      } */
+      .parent {
+        display: flex;
+        justify-content: center;
+       
+      }
+      .c1 {
+        height: 40px;
+        width:50%;
+        display: flex;
+        justify-content: space-between;
+      }
+      .c2 {
+        height: 40px;
+        width:50%;
+        display: flex;
+        justify-content: space-between;
+      }
+</style>
+<body>
+        
+    <header >
+        <div id="idA1">
+            <img src="./image/flight.jpeg" height="40px" width="40px" style="margin-top: 20px;">
+            <h1>BOOK YOUR FLIGHT</h1>
+            
+                <input id="idB1" type="text" placeholder="Type for search">                   
+            </div>
+            <div class=" content">
+                <img src="./image/English.jpeg" height="30px" width="30px" style="border-radius: 50px; margin-top: 10px;">
+                <select name="HSHSJS" style="width: 100px; height: 20px; border: none; margin-left: 10px; margin-top: 20px;" >
+                    <option>English</option>
+                    <option>marathi</option>
+                </select>
+                <select name="HSHSJS" style="width: 100px; height: 20px; border: none; margin-left: 10px;  margin-top: 20px;"  >
+                    <option>GRB</option>
+                    <option>fARCH</option>
+                </select>
+                <select name="HSHSJS" style="width: 100px; height: 20px; border: none; margin-left: 10px;  margin-top: 20px;" >
+                    <option>Sign in</option>
+                    <option>fARCH</option>
+                </select>
+                
+            </div>
+           
+    </header>
+        
+        <nav class="navbar">
+          <a href="" style="margin-left: 130px;">HOME</a>
+          
+        <a href="">
+          <select name="HSHSJS" style="width: 100px; height: 20px; border: none; margin-left: 10px; margin-top: 20px;
+          margin-bottom: 20px;
+           background-color: rgb(44, 42, 44); color: white; align-content: center;" >
+            <option>FLIGHTS</option>
+            <option>fARCH</option>
+            </select>
+        </a>
+        <a href="">
+            <select name="HSHSJS" style="width: 100px; height: 20px; border: none; margin-left: 10px; margin-top: 20px;
+             margin-bottom: 20px;
+            background-color: rgb(44, 42, 44); color: white; align-content: center;" >
+            <option>TOURS</option>
+            <option>fARCH</option>
+            </select> 
+        </a>
+        <a href="">
+            <select name="HSHSJS" style="width: 100px; height: 20px; border: none; margin-left: 10px; margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: rgb(44, 42, 44); color: white;" >
+            <option>FEATURES</option>
+            <option>fARCH</option>
+            </select>
+        </a>
+        <a href="">
+            <select name="HSHSJS" style="width: 100px; height: 20px; border: none; margin-left: 10px; margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: rgb(44, 42, 44); color: white;" >
+            <option>BLOG</option>
+            <option>fARCH</option>
+            </select>
+        </a>
+        <a href="">GALLERY</a>
+        <a href="">ABOUT US</a>
+        </nav>
+<div class="main">
+
+            <div class="M1">
+                <div class="M2">
+                    <h1 style="font-size: 50px; color:white; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    Book Your Flight With Us</h1>
+                    <h3 style="font-family:sans-serif; margin-top: -20px;">
+                        Whether you're jetting off for pleasure or travelling for<br>
+                        business we offer flight deals to the best destinations in<br>
+                        America. Find your domestic airfare, and get ready to explore<br>
+                        the sights from sea to shining sea.
+                    </h3>
+                    <button class="b1">Learn more</button>
+                </div>
+                <div class="parent">
+                    <div class="M3">
+                        <h2><b>Destination</b></h2>
+
+                        <div class="c1"> 
+                       <label>From</label>
+                       <label>To</label>
+                        </div>
+                        <div class="c2">
+                            <div>
+                            <input type="text" style=" height: 40px; border-radius: 30px;" placeholder="City, airport, ZIP code">
+                            </div>
+                            <div>
+                                <img src="./left right arrow.avif" height="30px" width="30px" style="background-color: blue;">
+                            </div>
+                            <div>
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="M4">
+                        <h2><b>Date</b></h2>
+                        <h4>Check in</h4>
+                    </div>
+                    <div class="M5">
+                        <h2><b>Passangers</b></h2>
+                        <h4>Adults</h4>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+<hr>
+
+<div class="main2">
+                    
+</div>
+
+
+
+</div>
+</body>
+</html>
